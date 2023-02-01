@@ -1,0 +1,45 @@
+@media(min-width: 767px){
+    .heading{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+    .subscribe{
+        font-weight: 300;
+        color: hsl(209, 33%, 12%);
+        line-height: 1.8rem;
+    }
+
+    .input-btn{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        gap: 13px;
+    }
+    
+    .input{
+        padding: 12px 75px;
+        border: 1px solid hsl(223, 100%, 88%);
+        border-radius: 25px;
+    }
+    
+    ::placeholder{
+        color: hsl(223, 100%, 88%);
+        font-weight: 300;
+    }
+    
+    .btn-notify{
+        padding: 12px 70px;
+        cursor: pointer;
+    }
+    
+    .main-pic{
+        width: 55%;
+        margin: 3vh 0;
+    }
+    
+    .logos{
+        gap: 11px;
+    }
+}
